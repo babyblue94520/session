@@ -8,10 +8,10 @@
         <version>2.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>pers.clare.core</groupId>
+    <groupId>com.demo</groupId>
     <artifactId>session</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>session</name>
+    <name>sync-session-demo</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
@@ -19,6 +19,11 @@
         <maven.test.skip>true</maven.test.skip>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>io.github.babyblue94520</groupId>
+            <artifactId>sync-session</artifactId>
+            <version>0.0.1-RELEASE</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
